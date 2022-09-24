@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="@dimen/_5sdp">
+
+
+    <LinearLayout
+                android:id="@+id/linear"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:weightSum="5">
+
+                <TextView
+                    android:id="@+id/restaurant"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:fontFamily="@font/fonts_medium"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:gravity="center"
+                    android:text="Lao"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:id="@+id/time"
+                    android:layout_width="0dp"
+                    android:layout_weight=".6"
+                    android:layout_height="wrap_content"
+                    android:text="4:14"
+                    android:fontFamily="@font/fonts_medium"
+                    android:textColor="@color/black"
+                    android:textStyle="normal"
+                    android:textSize="12sp"/>
+                <TextView
+                    android:id="@+id/customer"
+                    android:layout_width="0dp"
+                    android:layout_weight="1.6"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/_5sdp"
+                    android:gravity="center"
+                    android:text="2123 1/2 Ridge, Eva"
+                    android:fontFamily="@font/fonts_medium"
+                    android:textColor="@color/black"
+                    android:textStyle="normal"
+                    android:textSize="12sp"/>
+                <TextView
+                    android:id="@+id/tip"
+                    android:layout_width="0dp"
+                    android:layout_weight=".6"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Aid"
+                    android:fontFamily="@font/fonts_medium"
+                    android:textColor="@color/black"
+                    android:textStyle="normal"
+                    android:textSize="12sp"/>
+                <TextView
+                    android:id="@+id/status"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/_5sdp"
+                    android:text="Comp"
+                    android:gravity="center"
+                    android:fontFamily="@font/fonts_medium"
+                    android:textColor="@color/black"
+                    android:textStyle="normal"
+                    android:textSize="12sp"/>
+            </LinearLayout>
+
+     <View
+         android:layout_width="match_parent"
+         android:layout_height="@dimen/_1sdp"
+         android:background="@color/greyL"/>
+</LinearLayout>

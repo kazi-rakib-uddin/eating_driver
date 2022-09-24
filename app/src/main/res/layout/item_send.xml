@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="right"
+    android:orientation="vertical"
+    android:layout_marginLeft="@dimen/_20sdp"
+    android:id="@+id/linear_msg">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:layout_marginVertical="@dimen/_8sdp">
+        <LinearLayout
+            android:id="@+id/linear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/send_bg">
+            <TextView
+                android:id="@+id/txt_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/fonts_medium"
+                android:layout_marginVertical="@dimen/_5sdp"
+                android:text="Hey Martin! How are you?"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:lineSpacingExtra="@dimen/_4sdp"
+                android:textColor="#3e3e3e"
+                android:textSize="14sp"
+                android:textStyle="normal"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/fonts_medium"
+                    android:layout_marginVertical="@dimen/_5sdp"
+                    android:layout_marginHorizontal="@dimen/_10sdp"
+                    android:textStyle="normal"
+                    android:textSize="12sp"
+                    android:textColor="#7e7e7e"
+                    android:lineSpacingExtra="3sp"
+                    android:text="07:33 PM"
+                    android:visibility="gone"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/fonts_medium"
+                    android:textStyle="normal"
+                    android:textSize="12sp"
+                    android:textColor="#01b9ff"
+                    android:lineSpacingExtra="3sp"
+                    android:text="Received"
+                    android:visibility="gone"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

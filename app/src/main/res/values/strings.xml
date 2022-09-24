@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Eating Driver</string>
+    <string name="Google_API_Key" translatable="false">AIzaSyDR2L35esFi-RdDHaLHvgN9Mo6qg0YqSF4</string>
+
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="title_activity_order__history">Order History</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_map_">Map_Activity</string>
+    <string name="title_activity_delivery__order">Out for delivery</string>
+    <string name="title_activity_cancel__order">Cancel Order</string>
+</resources>

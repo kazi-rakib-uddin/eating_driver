@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/drawer_home"
+        android:title="Home" />
+    <item
+        android:id="@+id/drawer_user"
+        android:title="Driver Details" />
+
+    <item
+        android:id="@+id/drawer_driver_history"
+        android:title="Driver History" />
+
+    <item
+        android:id="@+id/drawer_previous"
+        android:title="Order History" />
+    <item
+        android:id="@+id/drawer_cancel"
+        android:title="Cancelled Orders" />
+    <item
+        android:id="@+id/drawer_out"
+        android:title="Out for Delivery Orders" />
+    <!--<item
+        android:id="@+id/drawer_follow"
+        android:title="Follow us on"
+        android:icon="@drawable/follow"/>-->
+    <item
+        android:id="@+id/drawer_logout"
+        android:title="Logout" />
+</menu>

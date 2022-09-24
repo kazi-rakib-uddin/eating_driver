@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_15sdp"
+        android:gravity="center_vertical"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:text="Arrived at Restaurant"
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:textColor="#2196F3"
+        android:fontFamily="@font/fonts_medium"
+        android:textSize="13sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="@dimen/_14sdp"
+            android:layout_height="@dimen/_14sdp"
+            android:src="@drawable/location"
+            android:tint="@color/sky"/>
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="800 Elgin road, Evanston"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:textColor="@color/sky"
+            android:fontFamily="@font/fonts_medium"
+            android:textSize="13sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:gravity="center_vertical"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/_10sdp">
+        <ImageView
+            android:layout_width="@dimen/_14sdp"
+            android:layout_height="@dimen/_14sdp"
+            android:tint="@color/sky"
+            android:src="@drawable/phone"/>
+        <TextView
+            android:id="@+id/customar_mobile_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7085747407"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:textColor="@color/sky"
+            android:fontFamily="@font/fonts_medium"
+            android:textSize="13sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:gravity="center_vertical"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:orientation="horizontal"
+        android:visibility="gone">
+        <ImageView
+            android:layout_width="@dimen/_14sdp"
+            android:layout_height="@dimen/_14sdp"
+            android:tint="@color/sky"
+            android:src="@drawable/phone"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Restaurant 8478642700"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:textColor="@color/sky"
+            android:fontFamily="@font/fonts_medium"
+            android:textSize="13sp"/>
+    </LinearLayout>
+
+
+
+<!--
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_15sdp"
+        android:gravity="center_vertical"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:text="Edit Order"
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/fonts_medium"
+        android:textSize="13sp"/>
+-->
+
+    <!-- <androidx.cardview.widget.CardView
+         android:id="@+id/card_apply"
+         android:layout_width="match_parent"
+         android:layout_height="@dimen/_45sdp"
+         android:layout_marginHorizontal="@dimen/_30sdp"
+         android:layout_marginVertical="@dimen/_15sdp"
+         app:cardUseCompatPadding="true"
+         app:cardCornerRadius="@dimen/_10sdp"
+         app:cardBackgroundColor="@color/colorPrimary">
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:gravity="center"
+             android:text="Apply"
+             android:textAllCaps="false"
+             android:fontFamily="@font/fonts_medium"
+             android:textStyle="bold"
+             android:textSize="12sp"
+             android:textColor="@color/white"/>
+     </androidx.cardview.widget.CardView>-->
+
+</LinearLayout>
